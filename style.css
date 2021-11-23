@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-image: url(fundo.jpg);
+}
+
+.titulo {
+    font-size: 56px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.blocos{
+    background: black;
+    max-width: 430px;
+    justify-content: center;
+    margin: 0 auto !important;
+    padding: 2px;
+    border-radius: 5px;
+}
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 3px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 41px;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+}
